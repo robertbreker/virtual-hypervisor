@@ -5,7 +5,7 @@ set -eu
 function print_usage_and_quit
 {
 cat << USAGE >&2
-usage: $(basename $0) ISOFILE TARGET_ISO PRESEEDFILE
+usage: $(basename "$0") ISOFILE TARGET_ISO PRESEEDFILE
 
 Re-master an Ubuntu iso file for unattended operation.
 

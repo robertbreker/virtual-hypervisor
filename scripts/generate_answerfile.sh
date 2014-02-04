@@ -5,7 +5,7 @@ set -eu
 function print_usage_and_quit
 {
 cat << USAGE >&2
-usage: $(basename $0) NETWORK_CONFIG [options]
+usage: $(basename "$0") NETWORK_CONFIG [options]
 
 Create an answerfile for automated install
 

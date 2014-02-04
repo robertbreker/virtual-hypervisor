@@ -4,7 +4,7 @@ set -eux
 function print_usage_and_quit
 {
 cat << USAGE >&2
-usage: $(basename $0) ISOFILE
+usage: $(basename "$0") ISOFILE
 
 Boot the virtual hypervisor from the specified ISOFILE.
 

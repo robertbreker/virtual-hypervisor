@@ -12,7 +12,7 @@ set -eu
 function print_usage_and_quit
 {
 cat << USAGE >&2
-usage: $(basename $0) ISOFILE TARGET ANSWERFILE
+usage: $(basename "$0") ISOFILE TARGET ANSWERFILE
 
 Re-master a XS/XCP iso file for unattended operation.
 

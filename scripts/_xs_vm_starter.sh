@@ -4,7 +4,7 @@ set -eu
 function print_usage_and_quit
 {
 cat << USAGE >&2
-usage: $(basename $0) NETWORK_NAME MACHINE_NAME
+usage: $(basename "$0") NETWORK_NAME MACHINE_NAME
 
 Start a VM with the name MACHINE_NAME on the network called NETWORK_NAME,
 proceeding an automatic xenserver installation.

@@ -4,7 +4,7 @@ set -eu
 function print_usage_and_quit
 {
 cat << USAGE >&2
-usage: $(basename $0) ISOFILE XENSERVER NETWORK_NAME MACHINE_NAME
+usage: $(basename "$0") ISOFILE XENSERVER NETWORK_NAME MACHINE_NAME
 
 Upload an iso file, and import it as an sr
 
